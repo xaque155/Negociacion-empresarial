@@ -1,0 +1,42 @@
+body {
+    font-family: "Lucida Bright", Georgia, serif;
+}
+.header{
+    background-color: #003f79;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
+.titulo_sitio{
+    font-size: 3vw;
+}
+img{
+    display: block;
+  margin: 0 auto;
+}
+p{
+    justify-content: center;
+}
+.bienvenida{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 80px;
+}
+.cont-banner{
+  display: flex;
+  justify-content: center;
+}
+.descripcion{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 1.2vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5%;
+    padding: 15px;
+    background-color: rgb(134, 134, 134);
+    color: #FFF;
+
+}
