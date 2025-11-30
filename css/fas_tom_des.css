@@ -1,0 +1,46 @@
+body {
+    font-family: "Lucida Bright", Georgia, serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.header{
+    background-color: #003f79;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
+.titulo_sitio{
+    font-size: 3vw;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #003f79;
+    margin-top: 10px;
+}
+.info_footer{
+    font-size: 1.2vw;
+    color:#FFF;
+    padding: 10px;
+}
+.cont_detalles{
+    display: flex;
+    justify-content: center;
+}
+.text_detalles{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #003f79;
+    color: #FFF;
+    margin: 20px;
+    width:50% ;
+    font-size: 1.1vw;
+}
+.footer{
+    background-color: #003f79;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
