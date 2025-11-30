@@ -1,0 +1,23 @@
+body {
+    font-family: "Lucida Bright", Georgia, serif;
+}
+.header{
+    background-color: #003f79;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
+.titulo_sitio{
+    font-size: 3vw;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #003f79;
+    margin-top: 10px;
+}
+.info_footer{
+    font-size: 1.2vw;
+    color:#FFF;
+    padding: 10px;
+}
