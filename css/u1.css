@@ -24,9 +24,10 @@
     border-radius: 10px;
 }
 .cont_temas{
-    margin-top: 15px;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
+    margin-bottom: 6%;
 }
 .display{
     width: 30%;

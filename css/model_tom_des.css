@@ -15,6 +15,10 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
+
+.img_page{
+    width: 400px;
+}
 .cont_desc{
     margin-top: 20px;
     display: flex;
@@ -35,9 +39,6 @@ body {
     width: 50%;
     border-radius: 10px;
     box-shadow:   10px 10px 5px rgb(184, 184, 184);
-}
-.img_page{
-    width:400px;   
 }
 .subtema{
     margin-top: 30px;
