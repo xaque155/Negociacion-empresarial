@@ -7,7 +7,7 @@
         fetch("./components/navbar.html")
         .then(resp => resp.text())
         .then(html => {
-            document.getElementById("navbar").innerHTML = html;
+            document.getElementById("barnav").innerHTML = html;
         });
         fetch("./components/banner.html")
         .then(resp => resp.text())

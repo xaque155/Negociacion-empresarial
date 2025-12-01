@@ -1,31 +1,32 @@
 body {
     font-family: "Lucida Bright", Georgia, serif;
 }
-.nav-link:hover{
-    background-color: #FFF;
-    color:#003f79;
-    padding: 3px;
-}
-.nav-link{
-    color:#FFF;  
-    text-decoration: none;
-    padding: 3px;
-}
-
 .header{
     background-color: #003f79;
     text-align: center;
     font-weight: bold;
-}
-.titulo_sitio{
-    color: #FFF;
-    font-size: 3vw;
 }
 .barnav{
     display: flex;
   flex-wrap: wrap;
   list-style: none;
 }
+.nav_link:hover{
+    background-color: #FFF;
+    color:#003f79;
+    padding: 3px;
+}
+.nav_link{
+    color:#FFF;  
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px  ;
+}
+.titulo_sitio{
+    color: #FFF;
+    font-size: 3vw;
+}
+
 
 .footer{
     display: flex;

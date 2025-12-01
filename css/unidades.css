@@ -4,11 +4,59 @@ body {
 .header{
     background-color: #003f79;
     text-align: center;
-    color: #FFF;
     font-weight: bold;
 }
+.barnav{
+    display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.nav_link:hover{
+    background-color: #FFF;
+    color:#003f79;
+    padding: 3px;
+}
+.nav_link{
+    color:#FFF;  
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px  ;
+}
 .titulo_sitio{
+    color: #FFF;
     font-size: 3vw;
+}
+.cont_unidades{
+    display: flex;
+    justify-content: center;
+    
+}
+.cont_unidad{
+    width: 50%;
+    background-color: #cdcecf;
+    padding: 20px;
+    border-radius:10px ;
+}
+.href_unidad{
+    color: #003f79;
+    font-weight: bold;
+    text-decoration: none;  
+    font-size: 1.4vw; 
+}
+.txt_unidad{
+    text-align:justify;
+    color:#FFF;
+    background-color: #003f79;
+    padding: 10px;
+    border-radius: 10px;
+}
+.imgU{
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+}
+.imgFEN{
+    border-radius: 100%;
 }
 .footer{
     display: flex;
